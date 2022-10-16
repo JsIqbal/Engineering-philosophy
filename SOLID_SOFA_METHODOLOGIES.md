@@ -99,3 +99,27 @@ S - short: Functions should be as short as feasible without taking away from cla
 O - One: Functions should address a single goal and rely on other functions for additional functionality.
 F - Few Arguments: Functions should have as few arguments in number as is possible for them to address required functionality.
 A - Abstraction: Functions should limit the level of abstraction they use to be consistent across all sub-parts. For example, a function should not combine a high-level API call to a webserver with a binary data conversion operation to process response data.
+
+#Restful Services:
+----------------
+1. Client Server Architechture:
+    1. Client is the App.
+    2. Server is who he response.
+
+    i. A client or an app can get response from the server using Some methods.
+    ii. These methods which runs with the help of HTTP/HTTPS are known as Rest - Represantional State Transfer.
+    iii. We can use The CRUD Operations to transfer states:
+        1. c - create
+        2. r - read
+        3. u - update
+        4. d - delete.
+
+    iv. To do this operations we need to have some services.
+        Those services are known as Restful Services or Restful APIs.
+
+        Some of them are:
+        1. CREATE
+        2. GET
+        3. PUT
+        4. PATCH
+        5. DELETE etc.
