@@ -94,11 +94,14 @@ Software Engineering Methodologies:
 
 #SOFA:
 ------
-#four principles of object-oriented programming (OOP) design that apply to functions.
+*four principles of object-oriented programming (OOP) design that apply to functions.
 
 S - short: Functions should be as short as feasible without taking away from clarity.
+
 O - One: Functions should address a single goal and rely on other functions for additional functionality.
+
 F - Few Arguments: Functions should have as few arguments in number as is possible for them to address required functionality.
+
 A - Abstraction: Functions should limit the level of abstraction they use to be consistent across all sub-parts. For example, a function should not combine a high-level API call to a webserver with a binary data conversion operation to process response data.
 
 #Restful Services:
