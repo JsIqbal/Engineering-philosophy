@@ -92,7 +92,7 @@ Software Engineering Methodologies:
 
 ----------
 
-SOFA:
+#SOFA:
 #four principles of object-oriented programming (OOP) design that apply to functions.
 
 S - short: Functions should be as short as feasible without taking away from clarity.
