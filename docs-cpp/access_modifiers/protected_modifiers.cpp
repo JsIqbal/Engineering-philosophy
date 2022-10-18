@@ -11,7 +11,6 @@ class Child : protected Parent {
     public:
     void fun (int x) {
         a = x;
-
         cout << a;
     }
 };
