@@ -3,7 +3,19 @@
 
 	philosophy: All we see around us are objects. But our computer doesn't know the objects around us. So we need to make the computer understand the objects in its own way . so we need to use OOP paradigm's languages.
 
-    # class : 
+    technical:
+
+    *Data types:
+
+        1. We want to let the computer know what kind of letter we are writing.
+
+        some of the datatypes:
+            i. int : 1, 2, 3...
+            ii. float : 1.4, 3.7, ....
+            iii. char : A, B, C,....
+            iv. string: "STRING"
+
+    # class :
         technical: Structure of an object or a blueprint.
 
         philosphy: As we need to make the pc understand what an object is, first we need to make sure it understands the structure of an object . So, we say that classes are the structures or blueprints of an object.
@@ -16,13 +28,14 @@
 
     OOP has 4 concepts:
     1. Inheritance
+        - If a child class inherites all the properties of it's parents class then it is called inheritence.
     2. polymorphism
     3. Encapsulation
     4. Abstruction
 
     # SOLID principle
     # Design Patterns
-    
+
     Databse:
         1. Cardinality / Relationship
         2. Normalization process
@@ -30,7 +43,6 @@
         4. Indexing in Databse ***
 
         # Extra: SQL Query
-
 
 SOLID is a short form of 5 software design principle:
 -----------------------------------------------------
@@ -78,16 +90,16 @@ Software Engineering Methodologies:
 
     Life Cycle: Plan -> Code -> Build -> Test -> Release -> Deploy -> Operate -> Monitor
 
-3. Waterfall development method: 
+3. Waterfall development method:
     i. waterfall method is the traditional software development method.
 
     Life Cycle : Requirements -> Design -> Implementations -> Varifications -> Maintanence
 
-4. Rapid application development: 
+4. Rapid application development:
     i. development process that produces a high-quality system with low investment costs.
 
-    Life cycle: planning -> user design -> construction -> cutover. 
-    
+    Life cycle: planning -> user design -> construction -> cutover.
+
     *** The user design and construction phases repeat until the user confirms that the product meets all requirements.
 
 ----------
