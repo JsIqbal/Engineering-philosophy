@@ -56,17 +56,8 @@
     5. Composition
 
     # SOLID principle
-    # Design Patterns
-
-    Databse:
-        1. Cardinality / Relationship
-        2. Normalization process
-        3. Transaction
-        4. Indexing in Databse ***
-
-        # Extra: SQL Query
-
-SOLID is a short form of 5 software design principle:
+    
+    SOLID is a short form of 5 software design principle:
 -----------------------------------------------------
 
 1. S - Single Responsibility principle:
@@ -91,8 +82,15 @@ SOLID is a short form of 5 software design principle:
 5. D - Dependency Inversion:
     1. Whenever A class get's dependant on other class then it in called dependency.
     2. A class needs to have all the necesasry properties to function properly. So that the instances of that class doesn't need to be dependant on other classes. Also following the Open Closed principle and Single Responsibility principle.
+    # Design Patterns
 
+    Databse:
+        1. Cardinality / Relationship
+        2. Normalization process
+        3. Transaction
+        4. Indexing in Databse ***
 
+        # Extra: SQL Query
 
 Software Engineering Methodologies:
 -----------------------------------
