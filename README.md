@@ -27,8 +27,6 @@
     3. Encapsulation
     4. Abstruction
 
-    ------------
-
     # Needed:
     --------
 
@@ -126,9 +124,7 @@ Software Engineering Methodologies:
 
     *** The user design and construction phases repeat until the user confirms that the product meets all requirements.
 
-----------
-
-#SOFA:
+# SOFA:
 ------
 *four principles of object-oriented programming (OOP) design that apply to functions.
 
@@ -140,7 +136,7 @@ F - Few Arguments: Functions should have as few arguments in number as is possib
 
 A - Abstraction: Functions should limit the level of abstraction they use to be consistent across all sub-parts. For example, a function should not combine a high-level API call to a webserver with a binary data conversion operation to process response data.
 
-#Restful Services:
+# Restful Services:
 ----------------
 1. Client Server Architechture:
     1. Client is the App.
