@@ -3,7 +3,9 @@
 1. OOP?
 	Technical: OOP is a programming paradigm where we work with objects & relations between objects.
 
-	philosophy: All we see around us are objects. But our computer doesn't know the objects around us. So we need to make the computer understand the objects in its own way . so we need to use OOP paradigm's languages.
+	philosophy: All we see around us are objects. 
+	But our computer doesn't know the objects around us. 
+	So we need to make the computer understand the objects in its own way . so we need to use OOP paradigm's languages.
 
     technical:
 
