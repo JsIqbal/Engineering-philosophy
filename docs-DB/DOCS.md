@@ -189,7 +189,7 @@ class 8 -> DB terms:
     iii. Domain: a column within a table has the expected values.
 
 * Design vocabularies:
----
+
 1. Entity: anything we store data about
 2. Attributes: things we store about the entity
 3. Relation: another name for a table
