@@ -6,7 +6,8 @@ Data: Anything we can store or anything that has a value.
 * we can query easily and find the wanted records.
 * security. Allowing division.
 
--------- Relational Database----class 2
+# class 2 -> Relational Database
+----
 
 Relation: A connection between data.
 
