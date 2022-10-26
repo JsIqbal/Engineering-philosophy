@@ -1,12 +1,14 @@
 # class 1
 
 Database : something that stores data.
+
 Data: Anything we can store or anything that has a value.
 
 * we can query easily and find the wanted records.
 * security. Allowing division.
 
-# Relational Database -> class 2
+# class 2 -> Relational Database
+----
 
 Relation: A connection between data.
 
@@ -171,7 +173,7 @@ RDBMS offers data types:
 class 8 -> DB terms:
 ---------
 
-Data vocabularies:
+* Data vocabularies:
 
 1. Data: anything we store in a DB
 2. Database: what we store our data in
@@ -186,8 +188,8 @@ Data vocabularies:
     ii. Referential: keeps the connections across multiple tables.
     iii. Domain: a column within a table has the expected values.
 
-Design vocabularies:
----
+* Design vocabularies:
+
 1. Entity: anything we store data about
 2. Attributes: things we store about the entity
 3. Relation: another name for a table
