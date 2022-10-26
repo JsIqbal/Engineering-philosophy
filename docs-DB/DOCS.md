@@ -9,7 +9,9 @@ Data vocabolaries:
 7. Anomalies
 8. Integrity
     i. Entity
+
     ii. Referntial
+
     iii. Domain
 
 Design vocabolaries:
@@ -32,15 +34,15 @@ Design vocabolaries:
 
 More database trerms:
 
-# SQL
+* SQL
     i. DDL - data defination language
     ii. DML - data manipulation language
-# SQL keywords:
+* SQL keywords:
     i. SELECT
     etc
 
-# frontend: user uses and sees.
-# backend: complicated stuff.
+* frontend: user uses and sees.
+* backend: complicated stuff.
 
 1. client side
 2. server side
@@ -49,7 +51,7 @@ More database trerms:
 5. joins. which is used by the views.
 
 
----------------- class 1
+# class 1
 
 Database : something that stores data.
 Data: Anything we can store or anything that has a value.
@@ -63,32 +65,32 @@ Relation: A connection between data.
 
     2       4
     |       |
-6--(6,2)--(6,4)
+6-(6,2)-(6,4)
     |       |
-8--(8,2)--(8,4)
+8-(8,2)-(8,4)
 
 Here we can see that 2,4,6,8 are builing relations.
 
-2 terms
--------
-1. entity: A person. Anything we store data about.
+* 2 terms
 
-2. attribute: the informations of the persons. the data about the entity.
+    -  entity: A person. Anything we store data about.
+
+    - attribute: the informations of the persons. the data about the entity.
 
 * when we apply attribute in reference to Entity we are creating a attribute type.
 
-# Table:
-* we store attribute about an entity in a table.
-* relation about entity and attributes.
+* Table:
+    - we store attribute about an entity in a table.
+    - relation about entity and attributes.
 
-1. row or record or tuple: where we store the attribute of a specific person or product or user.
+    1. row or record or tuple: where we store the attribute of a specific person or product or user.
 
-2. Fields or column or attribute: where a specific type of data are store. This is Attribute.
+    2. Fields or column or attribute: where a specific type of data are store. This is Attribute.
 
-3. Entity type: It can be User or any category we want to store data about.
+    3. Entity type: It can be User or any category we want to store data about.
 
-4. Attribute type: the categories of the attributes.
-    ex: user, username, password etc.
+    4. Attribute type: the categories of the attributes.
+        ex: user, username, password etc.
 
 -----------
 
@@ -98,7 +100,8 @@ class 3 -> RDBMS (Relational database management system)
 DBMS : database management system
 * we have tons of informations in our database like user informations, passwords and emails.
 
-* what if we want the information about a specific entity? we can run a database QUERY. To use the DB query we need to have a databse management system.
+* what if we want the information about a specific entity? we can run a database QUERY. 
+To use the DB query we need to have a databse management system.
 
 RDBMS is a sub category that is designed to manage relational databases.
 
@@ -106,7 +109,8 @@ RDBMS is a sub category that is designed to manage relational databases.
 
 DBMS / RDBMS:
 
-    i. view mechanism : surface appearance of a data. will give access to needed informations to specific users. it's a security feature. 
+    i. view mechanism : surface appearance of a data. will give access to needed informations to specific users. 
+    it's a security feature. 
 
         ex: 
             1. Admins can view all the data.
@@ -290,5 +294,7 @@ Design vocabolaries:
     - views or view mechanism.
     - joins. which is used by the views.
 
+
 # class 9 -> Atomic values
 ---
+1. everything we store in a database should be one thing.
