@@ -247,3 +247,78 @@ class 8 -> DB terms:
 # class 9 -> Atomic values
 ---
 1. Everything we store in a database should be one thing.
+
+    - smallest 1 individual thing saved in one field in a data table.
+    - treat as a one thing.
+    - every single attribute will be singular
+
+# class 10 -> Relationships
+---
+    - we break table for simplicity.
+
+    ex: 
+        - breaking one table into 2
+        - those 2 table will be related to one another.
+        - every table is an entity
+
+    * relationship tells us how we will structure our tables.
+
+        ex:
+
+            - Student
+            - Class
+            - Prof
+            - Major
+
+            here each of the entity is connected with each other by having a relationship.
+
+* types of relationship:
+
+    i. one to one
+    ii. one to many
+    ii. many to many
+
+
+# class 11 -> one to one
+---
+ex 1:
+
+    1. A husband can have one wife
+    2. wife can have one husband.
+
+    above is a one to one relationship.
+
+ex 2:
+
+    1. one person have only one social security number.
+        - one person have one SSN
+        - one SSN assigned to one person
+
+
+# class 12 -> one to many
+---
+
+    1. one entity can have a relationship with multiple entity.
+
+    2. specific entity can only be related back to one entity.
+
+    ex: 
+
+        - comment on a website
+        - the comment is only owned by you
+        - one person can comment multiple but one comment is only owned by only one user
+
+        this is one to many relation example
+
+
+# class 13 -> many to many
+---
+    1. Class : multiple students in a class
+    2. Student: student can take multiple class
+
+    ex:
+        - multiple husband will have multipe wives
+        - multiple wivex will have multiple husbands
+
+# * many to many relationship do not work in a RDMS.
+
