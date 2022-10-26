@@ -1,4 +1,4 @@
-Data vocabolaries:
+Data vocabularies:
 
 1. Data
 2. Database
@@ -8,13 +8,14 @@ Data vocabolaries:
 6. Null
 7. Anomalies
 8. Integrity
+
     i. Entity
 
-    ii. Referntial
+    ii. Referential
 
     iii. Domain
 
-Design vocabolaries:
+Design vocabularies:
 
 1. Entity
 2. Attributes
@@ -32,23 +33,23 @@ Design vocabolaries:
 14. Normalization
 15. Naming conventions
 
-More database trerms:
+More database terms:
 
 * SQL
-    i. DDL - data defination language
+    i. DDL - data definition language
     ii. DML - data manipulation language
 * SQL keywords:
-    i. SELECT
+    I. SELECT
     etc
 
 * frontend: user uses and sees.
 * backend: complicated stuff.
 
-1. client side
-2. server side
-3. server side scripting language to access the database from the client side which is the frontend.
-4. views or view mechanism.
-5. joins. which is used by the views.
+1. Client side
+2. Server side
+3. Server side scripting language to access the database from the client side which is the frontend.
+4. Views or view mechanism.
+5. Joins. Which is used by the views.
 
 
 # class 1
@@ -69,13 +70,13 @@ Relation: A connection between data.
     |       |
 8-(8,2)-(8,4)
 
-Here we can see that 2,4,6,8 are builing relations.
+Here we can see that 2,4,6,8 are building relations.
 
 * 2 terms
 
     -  entity: A person. Anything we store data about.
 
-    - attribute: the informations of the persons. the data about the entity.
+    - attribute: the information of the persons. The data about the entity.
 
 * when we apply attribute in reference to Entity we are creating a attribute type.
 
@@ -83,14 +84,14 @@ Here we can see that 2,4,6,8 are builing relations.
     - we store attribute about an entity in a table.
     - relation about entity and attributes.
 
-    1. row or record or tuple: where we store the attribute of a specific person or product or user.
+    1. Row or record or tuple: where we store the attribute of a specific person or product or user.
 
     2. Fields or column or attribute: where a specific type of data are store. This is Attribute.
 
     3. Entity type: It can be User or any category we want to store data about.
 
     4. Attribute type: the categories of the attributes.
-        ex: user, username, password etc.
+        Ex: user, username, password etc.
 
 -----------
 
@@ -98,37 +99,37 @@ class 3 -> RDBMS (Relational database management system)
 --------------
 
 DBMS : database management system
-* we have tons of informations in our database like user informations, passwords and emails.
+* we have tons of information in our database like user information, passwords and emails.
 
-* what if we want the information about a specific entity? we can run a database QUERY. 
-To use the DB query we need to have a databse management system.
+* what if we want the information about a specific entity? We can run a database QUERY. 
+To use the DB query we need to have a database management system.
 
 RDBMS is a sub category that is designed to manage relational databases.
 
-1. run fancy query.
+1. Run fancy query.
 
 DBMS / RDBMS:
 
-    i. view mechanism : surface appearance of a data. will give access to needed informations to specific users. 
-    it's a security feature. 
+    i. View mechanism : surface appearance of a data. Will give access to needed information to specific users. 
+    ii. a security feature. 
 
-        ex: 
+        Ex: 
             1. Admins can view all the data.
             2. A user can only view a certain amount of data.
 
     ii. Transaction:
-        a. transfer money
-        b. deduct money
-        c. if any error then the transaction terminates and unsave everything to previous order.
+        a. Transfer money
+        b. Deduct money
+        c. If any error then the transaction terminates and unsaved everything to previous order.
 
     Examples of DBMS/RDBMS:
         1. MySQL
-        2. Oracal
+        2. Oracle
         3. SQL server
 
     * actual files are saved in hard drive.
     * database management system shows the data in a presentable way.
-    * RDBMS creates consestincy for the frontend. we can take a full name from frontend but we store it in firstname and lastname columns in backend.
+    * RDBMS creates consistency for the frontend. We can take a full name from frontend but we store it in firstname and lastname columns in backend.
 
     * Server side scripting language:
         1. php
@@ -146,47 +147,47 @@ class 4 -> SQL (structured query language)
         - DML - data manipulation language.
         - the data in the attributes are written using the DML.
 
-        example:
+        Example:
             1. CREATE - to create a table. (DDL)
-            2. update - for updating the value. (DML)
+            2. Update - for updating the value. (DML)
 
     3. Join:
         - table about different entities join to have a new view which will be another table.
 
     
-class 5 -> Naming conventions
+Class 5 -> Naming conventions
 ----------------
 1. Any kind of SQL will be IN CAPITAL LETTER. SELECT
-2. anthing we write will be small letter. user, id
-3. for spaces we use _ underscore.
+2. Anything we write will be small letter. User, id
+3. For spaces we use _ underscore.
 
-if we have same columns in different tables then the attribute of those columns will be same. foreign key.
+If we have same columns in different tables then the attribute of those columns will be same. Foreign key.
 
 
-class 6 -> Database Design
+Class 6 -> Database Design
 ----------
 1. Data integrity:
     - correct data
     - updated data
     - managed properly
 
-2. we sould not have repeting data or broken data.
+2. We should not have repeating data or broken data.
 
-design methods:
+Design methods:
 A schema tells us how the data will be structured.
 - conceptual schema: 
-    - brainstorming & thining
+    - brainstorming & thinking
     - how data is related
     - general idea
 
 - logical schema: 
     - table structures
-    - structuring colums, data types
+    - structuring columns, data types
     - schema design
 
 - physical schema: 
     - which DBMS or RDBMS we will use
-    - implemantaion in database
+    - implementation in database
     - which server we will use
     - is it going online
     - program the database
@@ -194,22 +195,22 @@ A schema tells us how the data will be structured.
     - the views
     - securities
 
-* database design is using skill that you have to design a database that will not have data integrity issues and will not have any data anomalis.
+* database design is using skill that you have to design a database that will not have data integrity issues and will not have any data anomalies.
 
 * Break information in different tables. 
 
-class 7 -> Data integrity
+Class 7 -> Data integrity
 -----------
 It's about having correct data in the database.
 
 1. Entity integrity:
     - unique id for entities
 
-2. referential integrity:
+2. Referential integrity:
     - sale bought by a user that doesn't exist
     - foreign key constraints allow to connect tables
 
-3. domain integrity: 
+3. Domain integrity: 
     - acceptable values for a column
     - what we are storing
     - the range we are storing
@@ -224,7 +225,7 @@ RDBMS offers data types:
 class 8 -> DB terms:
 ---------
 
-Data vocabolaries:
+Data vocabularies:
 
 1. Data: anything we store in a DB
 2. Database: what we store our data in
@@ -232,14 +233,14 @@ Data vocabolaries:
     - it stores data in tables
 4. DBMS: we control our DB
 5. RDBMS: we control RDB
-6. Null: column without a value. no data or no value
+6. Null: column without a value. No data or no value
 7. Anomalies: Errors in data integrity
 8. Integrity: implement integrity to protect anomalies.
-    i. Entity: uniqeness among the tables
-    ii. Referntial: keeps the connections accross multiple tables.
+    i. Entity: uniqueness among the tables
+    ii. Referential: keeps the connections across multiple tables.
     iii. Domain: a column within a table has the expected values.
 
-Design vocabolaries:
+Design vocabularies:
 ---
 1. Entity: anything we store data about
 2. Attributes: things we store about the entity
@@ -252,12 +253,12 @@ Design vocabolaries:
 9. Record: all attributes about a specific entity
 10. Field: another name for a column
 11. Value: information that we put in to a specific column
-12. Entry: when we enter data. it's also row
-13. DBdesign: process of desiging a table to remove anomaly and have data integrity.
-14. schema: a physical drwn out structure of our DB
+12. Entry: when we enter data. It's also row
+13. DBdesign: process of designing a table to remove anomaly and have data integrity.
+14. Schema: a physical drawn out structure of our DB
 15. Normalization: a bunch of steps to follow to help us get the best DB design
-16. Naming conventions: consestincy to name in a certain way.
-17. keys: something to make anything uniqe in a table
+16. Naming conventions: consistency to name in a certain way.
+17. Keys: something to make anything unique in a table
 
 * physical structure: 
     - relation
@@ -274,10 +275,10 @@ Design vocabolaries:
     - column
     - field
 
-# More database trerms:
+# More database terms:
 
 * SQL
-    i. DDL - data defination language
+    i. DDL - data definition language
     ii. DML - data manipulation language
         - update
         - delete
@@ -285,16 +286,16 @@ Design vocabolaries:
     i. SELECT
     etc
 
-* frontend: user uses and sees. gives a view
+* frontend: user uses and sees. Gives a view
 * backend: complicated stuff.
 
-1. client side: frontend
-2. server side: backend that serves the frontend
+1. Client side: frontend
+2. Server side: backend that serves the frontend
     - server side scripting language to access the database from the client side which is the frontend.
     - views or view mechanism.
-    - joins. which is used by the views.
+    - joins. Which is used by the views.
 
 
 # class 9 -> Atomic values
 ---
-1. everything we store in a database should be one thing.
+1. Everything we store in a database should be one thing.
