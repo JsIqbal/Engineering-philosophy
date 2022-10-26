@@ -1,6 +1,7 @@
 # class 1
 
 Database : something that stores data.
+
 Data: Anything we can store or anything that has a value.
 
 * we can query easily and find the wanted records.
