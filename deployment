@@ -1,0 +1,13 @@
+Add this field in top of the package.json >> "homepage": "https://jsiqbal.github.io/router-dom-v6",
+Add this 2 comands in script block:
+
+"predeploy": "npm run build",
+"deploy": "gh-pages -d build",
+
+Add the: use >> npm i gh-pages -D
+
+"devDependencies": {
+  "gh-pages": "^5.0.0"
+}
+
+npm run deploy
