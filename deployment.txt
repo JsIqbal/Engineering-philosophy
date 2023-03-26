@@ -1,3 +1,5 @@
+GitHUb Pages:
+
 Add this field in top of the package.json >> "homepage": "https://jsiqbal.github.io/router-dom-v6",
 Add this 2 comands in script block:
 
@@ -14,6 +16,7 @@ npm run deploy
 
 
 -----------------
+
 Netlify:
 
 Create a netlify account using the github account and inside use the install netlify in all the github project. then just select the projects and branches and just deploy!
