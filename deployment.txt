@@ -11,3 +11,9 @@ Add the: use >> npm i gh-pages -D
 }
 
 npm run deploy
+
+
+-----------------
+Netlify:
+
+Create a netlify account using the github account and inside use the install netlify in all the github project. then just select the projects and branches and just deploy!
