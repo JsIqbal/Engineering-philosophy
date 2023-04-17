@@ -11,10 +11,10 @@
 Add these two commands to the scripts block:
 
 ```javascript
-{
+
    "predeploy": "npm run build",
    "deploy": "gh-pages -d build"
-}
+
 ```
 
 To deploy, you need to install gh-pages as a dev dependency using the command:
