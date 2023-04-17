@@ -19,8 +19,10 @@ Add these two commands to the scripts block:
 
 To deploy, you need to install gh-pages as a dev dependency using the command:
 
-
+```json
 npm i gh-pages -D
+```
+
 Make sure to install all other dependencies required for the build to work. To deploy, run the command:
 
 ```json
