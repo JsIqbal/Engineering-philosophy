@@ -18,3 +18,7 @@ then:
 After the installation, you can log in to your GitHub account using the gh tool. Run the following command and follow the prompts:
 
 gh auth login
+
+# customization of zsh
+
+sudo nano ~/.zshrc
