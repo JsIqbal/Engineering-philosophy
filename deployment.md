@@ -42,3 +42,18 @@ Create a Netlify account using your GitHub account.
 Inside Netlify, install it in all the GitHub projects.
 
 Select the projects and branches you want to deploy and just click on "Deploy".
+
+
+-----
+
+### For Next.js Deployment: Use the Deployment Beta Feature in Github Pages and configure the next.config.js file with this code :
+
+```code
+module.exports = {
+  basePath: '/your_repo_name', // Replace 'your-repo-name' with your GitHub repository name
+  assetPrefix: '/your_repo_name/', // Replace 'your-repo-name' with your GitHub repository name
+  output: 'export', // Enable static HTML export
+
+  // Add other configurations if needed
+};
+```
