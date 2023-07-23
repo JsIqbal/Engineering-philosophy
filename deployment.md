@@ -47,7 +47,8 @@ Select the projects and branches you want to deploy and just click on "Deploy".
 -----
 
 ### For Next.js Deployment: Use the Deployment Beta Feature in Github Pages and configure the next.config.js file with this code :
-
+* First Generate the yml file from beta deployment and commit it:
+* Second:
 ```code
 module.exports = {
   basePath: '/your_repo_name', // Replace 'your-repo-name' with your GitHub repository name
