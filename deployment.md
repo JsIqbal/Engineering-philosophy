@@ -3,7 +3,7 @@
 # Deploying Your Website to GitHub Pages and Netlify
 ### this is for React app:
 
-```code
+
 
 ## GitHub Pages:
 
@@ -35,8 +35,7 @@ Example Repository:
 ```link
 https://github.com/JsIqbal/router-dom-v6
 ```
-```
-
+### this is for Netlify React app:
 Netlify:
 Create a Netlify account using your GitHub account.
 
