@@ -160,3 +160,13 @@ A - Abstraction: Functions should limit the level of abstraction they use to be 
         3. PUT
         4. PATCH
         5. DELETE etc.
+
+### Interface and Implementation
+
+An interface serves as an abstraction of a method's signature. When we use an interface as a type, we must implement the method signature defined by that interface.
+
+### Domain Driven Design Pattern
+
+In the context of domain driven design pattern, the relationship between services, repositories, and REST APIs is interesting. While services and repositories are closely connected to the service, they are unaware of each other's existence.
+
+
