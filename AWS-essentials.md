@@ -32,3 +32,28 @@ go to ECS(Elastic Container Service): Used to work with docker images.
  2. num of task: container replicas
  3. keep everything default
 
+### ECS vs. EKS
+
+| Feature                  | Amazon ECS                                   | Amazon EKS                                      |
+|--------------------------|----------------------------------------------|--------------------------------------------------|
+| **Container Orchestration**| Proprietary AWS service                    | Kubernetes (open-source)                        |
+| **Ease of Use**           | Simpler setup, good for smaller projects     | More complex, suitable for larger projects      |
+| **Compatibility**         | Well-integrated with AWS services             | Standard Kubernetes compatibility               |
+| **Control**               | More opinionated, less control                | More customizable, greater control              |
+| **Learning Curve**        | Easier for beginners                          | Steeper learning curve for Kubernetes           |
+| **Scaling**               | Auto-scaling based on CloudWatch metrics      | Auto-scaling based on Kubernetes configurations |
+| **Pricing Model**         | Task and Service pricing models               | Node and Fargate pricing models                  |
+| **Managed Nodes**         | Fully managed service with Fargate or EC2     | Requires managing worker nodes                  |
+
+### SQS vs. SNS
+
+| Feature                 | Amazon SQS                                  | Amazon SNS                                      |
+|-------------------------|---------------------------------------------|-------------------------------------------------|
+| **Communication Type**   | Point-to-point (message goes to one subscriber) | Publish/subscribe (message goes to multiple subscribers) |
+| **Message Distribution** | Single subscriber                           | Multiple subscribers                           |
+| **Message Retention**    | Retains messages for a configurable period  | Typically not retained                          |
+| **Use Cases**            | Decoupling and buffering requests between components | Broadcasting messages to multiple subscribers |
+| **Delivery Retry**       | Supports automatic retries for message delivery | Retry depends on the subscriber's capabilities   |
+| **Error Handling**       | Supports dead-letter queues for handling failed messages | Error handling typically at the subscriber level |
+
+This detailed table provides insights into various aspects, including ease of use, compatibility, control, learning curve, scaling, pricing model, managed nodes, communication type, message distribution, message retention, use cases, delivery retry, and error handling for each service.
