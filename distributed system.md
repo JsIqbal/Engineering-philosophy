@@ -43,17 +43,36 @@ In an asynchronous setup, computers are more like friends playing at a playgroun
 
 # Failure in Distributed Systems
 
-In the computer teamwork, we need to know if any computer isn't doing well.
-
 ## Detection
 
+In our computer teamwork, it's important to know if any computer isn't doing well.
+
 - **How do we know?**
-  - We set time limits. If a computer takes too long, we think it might be having a problem.
+  - We set time limits. If a computer takes too long to respond, we think it might be having a problem.
+
+### Challenges and Best Practices
+
+- **Challenge: Identifying Problems**
+  - It's like waiting for a friend who's late. If they take too long, we get worried.
+
+- **Best Practice: Time Limits**
+  - We set a deadline. If a computer doesn't finish its task by then, we consider it might be in trouble.
 
 ## Trade-offs
 
-- **Picking Time Limits:**
-  - Choosing how long to wait is tricky. Too short, and we might make mistakes. Too long, and we waste time waiting.
+Picking Time Limits is a tricky game.
+
+- **Choosing how long to wait is tricky.**
+  - Too short, and we might think a computer failed when it's just a bit slow. Too long, and we waste time waiting.
+
+### Challenges and Best Practices
+
+- **Challenge: Finding the Right Balance**
+  - It's like deciding how long to wait for your friend. You don't want to leave too soon and miss them, but you also don't want to wait forever.
+
+- **Best Practice: Balancing Act**
+  - We need to find the sweet spot—enough time to be patient but not so much that we waste time unnecessarily.
+
 
 # Stateful vs. Stateless Systems
 
