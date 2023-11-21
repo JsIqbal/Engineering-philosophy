@@ -2,13 +2,44 @@
 
 Distributed systems involve multiple interconnected computers that work together to achieve a common goal.
 
-## Properties
+# Properties
 
-- **Synchronous:**
-  - Computers work together with a fixed schedule. They know the time limits for their tasks.
+## Synchronous
 
-- **Asynchronous:**
-  - No fixed schedule. Computers do their tasks without strict time rules.
+In a synchronous setup, computers act like a team following a strict schedule.
+
+- **Working Together:**
+  - All computers have a fixed plan, like a team dance. They move together, knowing when each step happens.
+
+- **Time Limits:**
+  - Everyone has a timer for their tasks. They know exactly how long they have for each job.
+
+### Challenges and Best Practices
+
+- **Challenge: Coordination**
+  - It's crucial for everyone to stay in sync.
+  
+- **Best Practice: Communication**
+  - Computers need to talk a lot to stay coordinated. Clear and constant communication is key.
+
+## Asynchronous
+
+In an asynchronous setup, computers are more like friends playing at a playground.
+
+- **No Fixed Schedule:**
+  - There's no strict plan. Each computer does its tasks whenever it feels like it, without waiting for others.
+
+- **Doing Tasks:**
+  - It's like friends playing—they do their things without waiting for a signal from others.
+
+### Challenges and Best Practices
+
+- **Challenge: Timing**
+  - Tasks might finish at different times.
+  
+- **Best Practice: Flexibility**
+  - Computers need to be flexible, ready to adapt to the unpredictable timing of others.
+
 
 # Failure in Distributed Systems
 
