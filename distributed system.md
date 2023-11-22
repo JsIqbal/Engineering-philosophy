@@ -76,17 +76,38 @@ Picking Time Limits is a tricky game.
 
 # Stateful vs. Stateless Systems
 
-Think of computer systems like having a memory or not.
-
 ## Stateless
+
+Think of computer systems like having a memory or not.
 
 - **No Memory:**
   - Computers just look at what they have now. They don't remember what happened before.
 
+### Characteristics
+
+- **Focus on Now:**
+  - It's like looking at a picture without knowing anything about what happened before or after.
+
 ## Stateful
+
+Memory Savvy:
 
 - **Memory Savvy:**
   - Computers remember things in a special place (like a database). They use this info to decide what to do.
+
+### Characteristics
+
+- **Remembering Past:**
+  - It's like having a diary. Computers can use what they wrote before to make better decisions.
+
+### Challenges and Best Practices
+
+- **Challenge: Keeping Track**
+  - It's like remembering all the steps in a recipe. Computers need to track what happened before.
+
+- **Best Practice: Special Place for Memories**
+  - Having a special 'memory' place (database) helps computers organize and use information wisely.
+
 
 # Exactly-Once Semantics
 
