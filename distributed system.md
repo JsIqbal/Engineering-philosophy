@@ -111,13 +111,23 @@ Memory Savvy:
 
 # Exactly-Once Semantics
 
+## Challenge
+
 Making sure things happen just right, even if the computer messages get a bit mixed up.
 
 - **Challenge:**
   - Making sure a computer task happens only once, even if we get the same message more than once.
 
-- **Solutions:**
-  - Using special tasks that won't mess up even if we repeat them. Also, making sure we only pay attention to new messages.
+## Solutions
+
+Making sure we only pay attention to new messages:
+
+- **Using Special Tasks:**
+  - Using special tasks that won't mess up even if we repeat them.
+  
+- **Attention to New Messages:**
+  - Being smart about which messages we pay attention to, so we don't get confused with the old ones.
+
 
 # Failure Detectors
 
