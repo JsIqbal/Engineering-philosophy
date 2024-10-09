@@ -1,5 +1,5 @@
 
-# Comparing and Merging Two Different Git Repositories
+### Comparing and Merging Two Different Git Repositories
 
 ## Step 1: Clone the Repositories
 First, clone both repositories locally:
